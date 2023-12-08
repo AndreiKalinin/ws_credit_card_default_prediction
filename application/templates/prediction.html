@@ -1,0 +1,16 @@
+<!DOCTYPE>
+<html>
+<head>
+<style>
+body {
+        background-image: url({{ url_for('static', filename='background.png') }});
+        background-size: cover;
+        max-width: max-content;
+        margin: 20% 40% 20% 40%;
+     }
+</style>
+</head>
+<body>
+    <h2>{{ prediction_result }}</h2>
+</body>
+</html>

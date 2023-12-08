@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<title>Upload new file</title>
+<style>
+body {
+        background-image: url({{ url_for('static', filename='background.png') }});
+        background-size: cover;
+        max-width: max-content;
+        margin: 20% 40% 20% 40%;
+     }
+</style>
+<h2>Upload new file</h2>
+<form method=post enctype=multipart/form-data>
+   <input type=file name=file>
+   <input type=submit value=Upload>
+</form>
