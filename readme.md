@@ -1,4 +1,5 @@
 # Description
+![](./image/ws_submit.png)
 This is a web application for pretrained ML model. <br>
 User can submit csv file and receive a next month default prediction. <br>
 There is also a possibility to upload csv file on the server for further utilization in data flow process. <br>
